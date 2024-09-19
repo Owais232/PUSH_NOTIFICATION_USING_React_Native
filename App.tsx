@@ -32,7 +32,7 @@ const App = () => {
 
     requestUserPermission();
 
-    // Foreground message handler
+    // Fmessage handle
     const unsubscribeOnMessage = messaging().onMessage(async remoteMessage => {
       try {
         console.log('A new FCM message arrived!', JSON.stringify(remoteMessage));
